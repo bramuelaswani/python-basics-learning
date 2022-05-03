@@ -54,3 +54,8 @@ if 4 in nums:
     print(nums[3])
 else:
     print(nums[4])
+
+
+x = str(input())
+for i in range(1, 11):
+    print(x)

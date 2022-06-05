@@ -1,3 +1,9 @@
+import pandas as pd
+import plotly.express as px
+df = pd.read_csv(
+    "/home/leapfrog/Desktop/Pula/query_result_2022-06-04T17_51_58.663541Z.csv")
+
+
 # Create 3D scatter plot
 fig = px.scatter_3d(
     df,

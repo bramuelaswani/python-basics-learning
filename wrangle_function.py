@@ -52,3 +52,5 @@ files
 
 # list comprehension
 frames = [wrangle(file)for file in files]
+
+df = pd.concat(frames, ignore_inde=True)

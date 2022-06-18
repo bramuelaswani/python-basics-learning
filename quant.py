@@ -34,5 +34,3 @@ print("Hello World"[-1])
 
 se2 = {3, 4, 2, 3, 1}
 print(se2)
-
-print(1+2**2)**(1+1)*2

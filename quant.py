@@ -30,7 +30,24 @@ x = [i+5 for i in nums if i % 2]
 print(x)
 
 
-print("Hello World"[-1])
+#print("Hello World"[:::-1]
 
-se2 = {3, 4, 2, 3, 1}
-print(se2)
+# se2 = {3, 4, 2, 3, 1}
+# print(se2)
+
+# a = {3, 4, 2, 3, 1}
+# print(a)
+
+# x=3
+# while x<11:
+#     if x%2==0:
+#         x=x-1
+#     else:
+#         x=x*2
+#     print(x)
+
+dict1={"key":  "A", "key2":2}
+dict2={"key2":  2, "key":"A"}
+print(dict1==dict2)
+
+print((1+2**2)**(1+1)*2)

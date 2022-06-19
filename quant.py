@@ -16,10 +16,10 @@ def func(x, y):
     if x == 0:
         return y
     else:
-        return func(x+1, y-x)
+        return func(x-1, x-y)
 
 
-print(func(-3, 10))
+print(func(4, 7))
 
 set = (2, 5, 7)
 print(set[-1])
@@ -30,7 +30,7 @@ x = [i+5 for i in nums if i % 2]
 print(x)
 
 
-#print("Hello World"[:::-1]
+# print("Hello World"[:::-1]
 
 # se2 = {3, 4, 2, 3, 1}
 # print(se2)
@@ -46,8 +46,24 @@ print(x)
 #         x=x*2
 #     print(x)
 
-dict1={"key":  "A", "key2":2}
-dict2={"key2":  2, "key":"A"}
-print(dict1==dict2)
+dict1 = {"key":  "A", "key2": 2}
+dict2 = {"key2":  2, "key": "A"}
+print(dict1 == dict2)
 
 print((1+2**2)**(1+1)*2)
+
+for letter in "Hello there":
+    i = letter
+print(i)
+
+set1 = {"stock", "bond", "option"}
+# print(set1[-1])
+
+
+x = [2, [1]]
+y = list(x)
+x[0] = -1
+x[1][0] = -1
+y = list(x)
+
+print(y)

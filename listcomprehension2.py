@@ -78,3 +78,13 @@ for i in range(1_000_000):
     a.append(i*i)
 stop = timer()
 print(f'{stop-start:.4f} seconds')
+
+
+#for loop
+drop_cols=[]
+for col in df.columns:
+    if "post_eq" in col:
+        drop_cols.append(col)
+#list comprehension
+drop_cols=[col for col in df.columns if "post_eq" in col]
+drop_cols

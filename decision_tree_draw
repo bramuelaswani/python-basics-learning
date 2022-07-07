@@ -1,0 +1,13 @@
+# Create larger figure
+fig, ax = plt.subplots(figsize=(25, 12))
+# Plot tree
+plot_tree(
+    decision_tree=model.named_steps["decisiontreeclassifier"],
+    feature_names=X_train.columns,
+    filled=True,  # Color leaf with class
+    rounded=True,  # Round leaf edges
+    proportion=True,  # Display proportion of classes in leaf
+    max_depth=3,  # Only display first 3 levels
+    fontsize=12,  # Enlarge font
+    ax=ax,  # Place in figure axis
+);

@@ -1,7 +1,7 @@
 import sys
-name=' '
-while name!='your name':
+name = ' '
+while name != 'your name':
     print('Please type your name.')
-name=input()
+name = input()
 print('Thank you')
 sys.exit
